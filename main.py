@@ -6,7 +6,7 @@ openai.api_type = "azure"
 openai.api_base = "https://arkano-openai-dev.openai.azure.com/"
 openai.api_version = "2023-09-15-preview"
 
-openai.api_key =  "430f140c6a1d4518900a39d4e7c452cd"#os.getenv("OPENAI_API_KEY")
+openai.api_key =  os.getenv("OPENAI_API_KEY")
 
 def responder(_dias, _destino):
     dias = _dias
